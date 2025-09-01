@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Welliton</title>
+    <!-- Importando a fonte Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Importando o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================
+         CABEÇALHO DO SITE
+    ============================ -->
+    <header>
+        <h1>Bem-vindo ao meu Portfólio</h1>
+        <p>Engenharia de Software - Currículo Online</p>
+    </header>
+
+    <!-- ============================
+         MENU DE NAVEGAÇÃO
+    ============================ -->
+    <nav>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- ============================
+         SEÇÃO SOBRE MIM
+    ============================ -->
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Sou um profissional com uma abordagem de trabalho centrada na ética e na empatia, que me permitem construir relações fortes e colaborativas. Minha capacidade de atuar sob pressão se baseia em um estilo de liderança que engaja a equipe para resolver problemas de forma eficiente.<br>
+            <br>
+            Mantenho-me sempre organizado e planejado, o que é fundamental para gerenciar projetos complexos e entregar resultados consistentes. Minha flexibilidade e facilidade de aprendizado me permitem adaptar-me rapidamente a novos desafios, ambientes e tecnologias, garantindo que eu esteja sempre pronto para evoluir e contribuir de maneira significativa.</p>
+    </section>
+
+    <!-- ============================
+         SEÇÃO FORMAÇÃO E IDIOMAS
+    ============================ -->
+    <section id="formacao">
+        <h2>Formação Educacional</h2>
+    
+        <h3>Graduação</h3>
+        <p>Engenharia de Software - 2ª fase | Centro Universitário Internacional - UNINTER</p>
+    
+        <h3>Cursos</h3>
+        <p>Fundamentos do Power BI - Fundação Bradesco<br>
+           Autoliderança - DNC <br>
+           Excel Médio - Fundação Bradesco</p>
+    
+        <h3>Idiomas</h3>
+        <p>Português (Nativo) <br>
+           Inglês (Básico) 
+        </p>
+    </section>
+
+    <!-- ============================
+         SEÇÃO PORTFÓLIO
+    ============================ -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Explore alguns dos meus trabalhos mais recentes e projetos de destaque.</p>
+        
+        <div class="portfolio-grid">
+    
+            <div class="portfolio-card">
+                <div class="card-image">
+                    <img src="BANCO-DADOS.png" alt="Banco de dados - Modelo Entidade-Relacionamento">
+                </div>
+                <div class="card-content">
+                    <h3>Banco de dados - Modelo Entidade-Relacionamento</h3>
+                    <p class="card-tech">Tecnologia: SQL</p>
+                    <p>O Modelo Entidade-Relacionamento (MER) é uma ferramenta de modelagem de dados que descreve a estrutura conceitual de um banco de dados. <br>
+                    <br>
+                    Ele serve como um "mapa" para o banco de dados. Seu objetivo é organizar os dados de um sistema, mostrando os objetos (entidades), suas características (atributos) e como eles se conectam (relacionamentos). Isso facilita a comunicação e garante que o banco de dados seja bem projetado antes de ser implementado.</p>
+                    <a href="https://drive.google.com/file/d/1YEJ-WgQ707ElWwuUH70azOLc2rvwtQUK/view?usp=sharing" target="_blank" class="card-link">Ver Projeto</a>
+                </div>
+            </div>
+    
+            <div class="portfolio-card">
+                <div class="card-image">
+                    <img src="PYTHON.jpg" alt="Desenvolvimento em Python - Básico">
+                </div>
+                <div class="card-content">
+                    <h3>Desenvolvimento em Python - Básico</h3>
+                    <p class="card-tech">Tecnologias: Python</p>
+                    <p>Meu objetivo com este projeto foi ir além da teoria. Cada problema foi uma oportunidade de aprimorar minha proficiência na linguagem, minha capacidade de planejamento e a execução da lógica. O resultado é um portfólio de soluções que mostram a jornada completa, do desafio inicial ao código final.</p>
+                    <a href="https://drive.google.com/file/d/1NhJG9QGyb4yDIw2a67qaB6bbyNHGsB8l/view?usp=sharing" target="_blank" class="card-link">Ver Projeto</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- ============================
+         SEÇÃO CONTATO
+    ============================ -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <!-- Campo para nome -->
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            
+            <!-- Campo para email -->
+            <input type="email" name="email" placeholder="Seu email" required>
+
+            <!-- Campo para telefone de contato -->
+            <input type="tel" name="telefone" placeholder="Seu telefone" required>
+            
+            <!-- Campo para mensagem -->
+            <textarea name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+            
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- ============================
+         RODAPÉ
+    ============================ -->
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Welliton Santana</p>
+    </footer>
+</body>
+</html>
